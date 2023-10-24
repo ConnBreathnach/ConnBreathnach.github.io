@@ -56,7 +56,7 @@ skills:
     - name: Machine Learning
       description: ''
       percent: 90
-      icon: chart-network
+      icon: microchip
       icon_pack: fas
     - name: Robotics
       description: ''
@@ -70,12 +70,12 @@ skills:
       - name: Rock Climbing
         description: ''
         percent: 90
-        icon: mountains
+        icon: mountain
         icon_pack: fas
       - name: Retro Tech
         description: ''
         percent: 80
-        icon: alien-8bit
+        icon: gamepad
         icon_pack: fas
       - name: Chess
         description: ''
