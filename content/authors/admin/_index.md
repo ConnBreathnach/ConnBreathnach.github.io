@@ -1,50 +1,47 @@
 ---
 # Display name
-title: 吳健雄
+title: Conn Breathnach
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Conn
+last_name: Breathnach
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🤖
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Machine Learning Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: School Of Computer Science. Trinity College Dublin
+    url: https://www.scss.tcd.ie
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Machine Learning Researcher currently working on Reinforcement Learning for Automated Theorem Proving in Lean. Previous work includes user modelling, graph neural networks, and classical robotics.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Reinforcment Learning
+  - Automated Theorem Proving
+  - Multimodal Models
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: MSC in Computer Science
+      institution: Trinity College Dublin
+      year: 2024
+    - course: BA (Mod) in Computer Science
+      institution: Trinity College Dublin
+      year: 2023
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -53,37 +50,37 @@ skills:
     items:
     - name: Python
       description: ''
-      percent: 80
+      percent: 100
       icon: python
       icon_pack: fab
-    - name: Data Science
+    - name: Machine Learning
       description: ''
-      percent: 100
-      icon: chart-line
+      percent: 90
+      icon: chart-network
       icon_pack: fas
-    - name: SQL
+    - name: Robotics
       description: ''
       percent: 40
-      icon: database
+      icon: robot
       icon_pack: fas
-  - name: Hobbies
+  - name: Interests
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Rock Climbing
         description: ''
-        percent: 60
-        icon: person-hiking
+        percent: 90
+        icon: mountains
         icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
+      - name: Retro Tech
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: alien-8bit
+        icon_pack: fas
+      - name: Chess
+        description: ''
+        percent: 100
+        icon: chess-knight
         icon_pack: fas
 
 # Social/Academic Networking
@@ -93,22 +90,22 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:cobreath@tcd.ie'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/ConnBreathnach
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=L9FEADEAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/ConnBreathnach
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/ConnBreathnach/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +117,7 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Conn Breathnach is a master's student of Computer Science at Trinity College Dublin. His current research interests include neural theorem proving, reinforcement learning, multi-armed bandits and machine learning for mathematical and scientific discoveries. This mainly focuses on automated theorem proving and algorithm generation.
+
+His background is in computer science and he has worked prviously as a researcher in the ADAPT Centre in Trinity College Dublin where his work focused on user modelling for education, graph neural networks, and explainable AI. Alongside these subjects, he also has experience in robotics, low-level optimization, and software engineering for high frequency trading.
 {style="text-align: justify;"}
