@@ -62,27 +62,35 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Research Intern
+          company: ADAPT Centre
+          company_url: 'https://www.adaptcentre.ie/'
+          company_logo: adapt
+          location: Dublin
+          date_start: '2023-02-01'
+          date_end: '2023-08-11'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * User Modelling
+              * Graph Neural Networks
+              * Data Mining
+        - title: Reinforcement Learning Team Lead
+          company: Formula Trinity Autonomous
+          company_url: 'https://www.formulatrinity.ie/'
+          company_logo: formula-trinity
+          location: Dublin
+          date_start: '2022-09-01'
+          date_end: '2023-08-31'
+          description: Ran workshops for teaching reinforcement learning, organized team competition entries, and planned research trajectories.
+        - title: Software Engineering Intern
+          company: Virtu Financial
+          company_url: 'https://www.virtu.com/'
+          company_logo: virtu-logo
+          location: Dublin
+          date_start: '2022-06-14'
+          date_end: '2022-08-19'
+          description: Improved latency in high frequency trading systems through low-level optimizations
     design:
       columns: '2'
   - block: accomplishments
@@ -98,29 +106,13 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.enterprise-ireland.com/en/student-entrepreneur-awards/
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          date_start: '2023-05-11'
+          description: 'Top 10 Finalist in the 2023 Student Entrepreneur Awards'
+          organization: Enterprise Ireland
+          organization_url: https://www.enterprise-ireland.com/en/
+          title: Student Entrepreneur Award
           url: ''
     design:
       columns: '2'
@@ -168,24 +160,20 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="gallery" >}}
+  #   design:
+  #     columns: '1'
   - block: collection
     id: featured
     content:
@@ -232,45 +220,15 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Contact me here if you're interested in collaborating or have any questions! 
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: cobreath at tcd dot ie
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          link: 'https://twitter.com/ConnBreathnach'
+
     design:
       columns: '2'
 ---
