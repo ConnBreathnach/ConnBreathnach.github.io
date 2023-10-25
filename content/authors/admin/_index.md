@@ -117,7 +117,7 @@ social:
 highlight_name: true
 ---
 
-Conn Breathnach is a master's student of Computer Science at Trinity College Dublin. His current research interests include neural theorem proving, reinforcement learning, multi-armed bandits and machine learning for mathematical and scientific discoveries. This mainly focuses on automated theorem proving and algorithm generation.
+I am a master's student of Computer Science at Trinity College Dublin. My current research interests include neural theorem proving, reinforcement learning, multi-armed bandits and machine learning for mathematical and scientific discoveries. This mainly focuses on automated theorem proving and algorithm generation.
 
-His background is in computer science and he has worked prviously as a researcher in the ADAPT Centre in Trinity College Dublin where his work focused on user modelling for education, graph neural networks, and explainable AI. Alongside these subjects, he also has experience in robotics, low-level optimization, and software engineering for high frequency trading.
+My background is in computer science and I have previously worked as a researcher in the ADAPT Centre in Trinity College Dublin where my work focused on user modelling for education, graph neural networks, and explainable AI. Alongside these subjects, I have experience in robotics, low-level optimization, and software engineering for high frequency trading.
 {style="text-align: justify;"}

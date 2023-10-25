@@ -90,7 +90,7 @@ sections:
           location: Dublin
           date_start: '2022-06-14'
           date_end: '2022-08-19'
-          description: Improved latency in high frequency trading systems through low-level optimizations
+          description: Improved latency in high frequency trading systems through optimizations in low-level code.
     design:
       columns: '2'
   - block: accomplishments
@@ -146,7 +146,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: Silly Projects
       filters:
         folders:
           - project
