@@ -146,7 +146,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Silly Projects
+      title: Projects
       filters:
         folders:
           - project
