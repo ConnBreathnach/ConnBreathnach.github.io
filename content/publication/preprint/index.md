@@ -33,10 +33,9 @@ tags:
 featured: true
 
 links:
-- name: 
-  url: './graph.pdf'
-  icon: pdf
-  icon_pack: fas
+
+# Local file paths relative to your content directory
+url_pdf: 'graph.pdf'  # Place your PDF in the same folder
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -49,8 +48,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
