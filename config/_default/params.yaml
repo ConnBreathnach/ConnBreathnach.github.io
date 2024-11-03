@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: cyan 
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Personal website and blog of machine learning researcher Conn Breathnach'
+    twitter: 'ConnBreathnach'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Conn Breathnach"
 
 # Site footer
 footer:
@@ -58,3 +58,10 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  icons:
+    pack:
+      ai: true
+      fas: true
+      fab: true
+      far: true
+      fal: true

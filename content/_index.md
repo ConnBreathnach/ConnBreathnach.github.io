@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2024-11-02
 type: landing
 
 design:
@@ -35,11 +35,15 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am deeply interested in researching reinforcement learning methods for planning and optimizaton, with a passion for improving the mathematical capabilities of machine learning models, primarily through the intersection of language models and reinforcement learning.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        I have previously worked as a student researcher on HCI for robotics and robotics teleoperation at the [Trinity Robotics and Innovation Lab](https://www.tcd.ie/mecheng/research/robotics-and-innovation-lab/). While a student I led the reinforcement learning team at in the autonomous department at [Formula Trinity](https://www.formulatrinity.ie/autonomous), where I organized workshops and led research into RL for autonomous racing vehicles.
+
+        I spent 8 months as a student researcher at the [ADAPT Centre](https://www.adaptcentre.ie) under the supervision of Professor Vincent Wade, where I worked on machine learning for curriculum design in education.
+        My Master's thesis focused on RL for guiding LLMs in the field of automated theorem proving, using the Lean language as a kernel for proving theorems. This work led to improvements in search efficiency over SOTA methods.
+
+        I currently work as a software engineer at [Stripe](https://www.stripe.com)
+
     design:
       columns: '1'
   - block: collection
@@ -61,15 +65,6 @@ sections:
         folders:
           - publication
         exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
     design:
       view: article-grid
       columns: 1
