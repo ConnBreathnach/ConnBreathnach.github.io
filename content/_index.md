@@ -42,7 +42,7 @@ sections:
         I spent 8 months as a student researcher at the [ADAPT Centre](https://www.adaptcentre.ie) under the supervision of Professor Vincent Wade, where I worked on machine learning for curriculum design in education.
         My Master's thesis focused on RL for guiding LLMs in the field of automated theorem proving, using the Lean language as a kernel for proving theorems. This work led to improvements in search efficiency over SOTA methods.
 
-        I currently work as a software engineer at [Stripe](https://www.stripe.com)
+        I currently work as a software engineer at  [Stripe](https://www.stripe.com)
 
     design:
       columns: '1'
